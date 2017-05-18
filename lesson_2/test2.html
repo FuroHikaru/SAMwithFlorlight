@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>ボックス（box-sizing使用）</title>
+<link rel="stylesheet" href="css/html5reset-1.6.1.css">
+<style>
+    html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+div{
+	width: 66.6%;
+	overflow: hidden;
+	border: solid 1px #888;
+	margin: 0 auto;
+}
+#box1{
+	/* width: 700px; */
+	float: left;
+	width: 72.9%;
+	background: #E0F8EC;
+	height: 300px;
+	padding: 1.04%;
+}
+#box2{
+	/* width: 260xpx; */
+	float: left;
+	width: 27%;
+	background-color: #F6CECE;
+	height: 300px;
+	padding: 1.04%;
+}
+</style>
+</head>
+<body>
+<div>
+<header>
+    <h1>ボックスサイズの計算</h1>
+    <p>pxを%にする計算</p>
+    <pre><code>
+<p>求めるボックスの幅（高さ）÷親ボックスの幅（高さ）x 100%</p>
+<p>求めるpadding（margin）のサイズ÷親ボックスの幅（幅）x 100%</p>
+    </code></pre>
+</header>
+<p id="box1">ボックス1<br>幅700pxを73%</p>
+<p id="box2">ボックス2<br>幅260pxを27%</p>
+</div>
+</body>
+</html>
+
+

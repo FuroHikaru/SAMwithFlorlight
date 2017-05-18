@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+div{
+	width: 66.6%;
+	overflow: hidden;
+	border: solid 1px #888;
+	margin: 0 auto;
+}
+#box1{
+	float: left;
+	width: 70.8%;
+	background: #E0F8EC;
+	height: 300px;
+	padding: 1.04%;
+}
+#box2{
+	float: left;
+	width: 25%;
+	background-color: #F6CECE;
+	height: 300px;
+	padding: 1.04%;
+}

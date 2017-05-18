@@ -1,0 +1,55 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>background</title>
+<style type="text/css">
+div{
+    background-image: url(img/cityscape.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 300px;
+	width: 90%;
+    margin-right: auto;
+	margin-left: auto;
+	border: 2px solid #F00;
+	margin-bottom:30px;
+}
+#div0 {	
+	background-size:auto;
+}
+
+#div1 {
+	background-size:auto 100%;
+}
+#div2 {
+	background-size:100% auto;
+}
+#div3 {
+	background-size:cover;
+}
+
+h1 {
+	font-size: 24px;
+	line-height: 300px;
+	color: #FFF;
+	text-align: center;
+}
+</style>
+</head>
+
+<body>
+<div id="div0">
+  <h1>background-size:auto;</h1>
+</div>
+<div id="div1">
+  <h1>background-size:auto 100%;</h1>
+</div>
+<div id="div2">
+  <h1>background-size:100% auto;</h1>
+</div>
+<div id="div3">
+  <h1>background-size:cover;</h1>
+</div>
+</body>
+</html>
